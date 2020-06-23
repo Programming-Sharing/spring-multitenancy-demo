@@ -11,7 +11,6 @@ public class TenantUserDetail implements UserDetails {
     private List<GrantedAuthority> authorities;
     private String userName;
     private String password;
-    private
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -54,5 +53,9 @@ public class TenantUserDetail implements UserDetails {
 
     public void setTenantId(String tenantId) {
         this.tenantId = tenantId;
+    }
+
+    public void setAuthorities(List<GrantedAuthority> authorities) {
+        this.authorities = authorities;
     }
 }
