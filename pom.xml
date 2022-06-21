@@ -18,7 +18,7 @@
         <java.version>11</java.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <hikaricp.version>3.4.5</hikaricp.version>
-        <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <lombok.version>1.18.12</lombok.version>
     </properties>
 
